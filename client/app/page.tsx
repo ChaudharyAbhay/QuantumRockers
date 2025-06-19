@@ -214,13 +214,13 @@ export default function Home() {
                 <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 via-purple-400 to-purple-700 shadow-md animate-contact-icon">
                   <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M4 4h16v16H4V4zm2 2v12h12V6H6zm2 2h8v2H8V8zm0 4h8v2H8v-2z" fill="#fff"/></svg>
                 </span>
-                <a href="mailto:abhay2gaurav@gmail.com" className="text-base text-blue-200 hover:underline transition-colors">abhay2gaurav@gmail.com</a>
+                <a href="mailto:abhay2gaurav@gmail.com" className="text-base text-blue-200 hover:underline transition-colors">XXXX.com</a>
               </div>
               <div className="flex items-center gap-3 mb-4">
                 <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-purple-400 via-blue-400 to-purple-700 shadow-md animate-contact-icon">
                   <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1C10.07 22 2 13.93 2 4.5A1 1 0 013 3.5H6.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z" fill="#fff"/></svg>
                 </span>
-                <a href="tel:9315712697" className="text-base text-blue-200 hover:underline transition-colors">9315712697</a>
+                <a href="tel:9315712697" className="text-base text-blue-200 hover:underline transition-colors">XXXXXXXXXX</a>
               </div>
             </div>
           </div>
