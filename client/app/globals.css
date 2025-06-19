@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -23,4 +23,40 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Animated background gradient */
+.animated-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(120deg, #1e1b4b 0%, #312e81 40%, #0ea5e9 100%);
+  background-size: 200% 200%;
+  animation: bg-move 16s ease-in-out infinite;
+  opacity: 0.18;
+  pointer-events: none;
+}
+@keyframes bg-move {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Section fade/slide-in animation */
+.section-animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.1s cubic-bezier(.77,0,.18,1.01), transform 1.1s cubic-bezier(.77,0,.18,1.01);
+}
+.section-animate.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Modern font sizes and spacing */
+h1, .text-7xl, .text-9xl {
+  letter-spacing: -0.04em;
+}
+h2, .text-4xl, .text-5xl {
+  letter-spacing: -0.01em;
 }
