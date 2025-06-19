@@ -12,3 +12,7 @@ Follow steps from "https://nextjs.org/docs/app/getting-started/installation" to 
 
 ```npm run dev```
 To run the application locally on your device.
+
+
+Packages used - Nextjs
+AI used - Chatgpt
